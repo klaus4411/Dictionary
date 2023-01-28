@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/inter-v12-latin-regular.woff2") format("woff2"),
+    url("../fonts/inter-v12-latin-regular.woff") format("woff");
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 100%;
+  max-width: 1310px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.dictionary-wrapper {
+  padding: 40px 0 60px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.dictionary-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.dictionary-form {
+  display: flex;
+  align-items: center;
+}
+.dictionary-input {
+  border: none;
+  padding: 16px 1028px 16px 33px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-right: 42px;
+}
+.dictionary-btn {
+  padding: 17px 40px 16px 39px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: #111111;
+  border-radius: 12px;
+}
+.word_wrap {
+  padding: 35px;
+  background: #ffffff;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.11);
+  border-radius: 14px;
+  margin-bottom: 40px;
+}
+.word_name {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 23px;
+  color: #000000;
+}
+.word_mean {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.word_example {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 34px;
+}
+.word_audio {
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 480px) {
+  .dictionary-input {
+    padding: 25px;
+  }
+}
